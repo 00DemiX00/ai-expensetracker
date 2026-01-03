@@ -1,8 +1,6 @@
+import { checkUser } from "@/lib/checkUser"
 
-
-
-function Navbar() {
+export default function Navbar() {
+    const user = checkUser()
   return <div>Navbar</div>;
 }
-
-export default Navbar
