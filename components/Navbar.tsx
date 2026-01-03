@@ -1,8 +1,7 @@
-import { checkUser }  from "@/app/lib/checkUser";
+
 
 
 function Navbar() {
-    const user = checkUser();
   return <div>Navbar</div>;
 }
 
